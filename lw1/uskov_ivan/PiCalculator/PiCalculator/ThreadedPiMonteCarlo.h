@@ -71,4 +71,3 @@ namespace ThreadedPIMonteCarlo
         return calculate(successCount, testsCount);
     }
 }
-

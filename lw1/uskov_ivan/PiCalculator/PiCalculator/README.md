@@ -18,6 +18,6 @@ cmd> PiCalculator.exe --help
 
 PI Calculator, evaluates PI number with Monte Carlo Method
 Options:
-  --threads=<threadsCount> : threads count, should be between 1 and 64
-  --tests=<testsCount>     : tests count (monte carlo iterations) should be between 1 and 100000000
-  ```
+  --threads=<threadsCount> : <optional default 1> threads count, should be between 1 and 64
+  --tests=<testsCount>     : <required> tests count (monte carlo iterations) should be between 1 and 100000000
+```
