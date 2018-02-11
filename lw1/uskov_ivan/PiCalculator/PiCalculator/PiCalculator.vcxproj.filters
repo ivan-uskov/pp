@@ -12,11 +12,18 @@
     <ClInclude Include="targetver.h">
       <Filter>system</Filter>
     </ClInclude>
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="PiMonteCarlo.h" />
+    <ClInclude Include="ThreadedPiMonteCarlo.h" />
+    <ClInclude Include="ArgumentsParser.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>system</Filter>
     </ClCompile>
     <ClCompile Include="PiCalculator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
