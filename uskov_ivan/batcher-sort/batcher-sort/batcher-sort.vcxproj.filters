@@ -12,6 +12,10 @@
     <ClInclude Include="stdafx.h">
       <Filter>system</Filter>
     </ClInclude>
+    <ClInclude Include="Measure.h" />
+    <ClInclude Include="BatcherSort.h" />
+    <ClInclude Include="ThreadedBatcherSort.h" />
+    <ClInclude Include="BaseBatcherSort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
